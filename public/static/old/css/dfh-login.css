@@ -1,0 +1,325 @@
+@charset "utf-8";
+
+/*reset-password*/
+.password-bg {
+    position: absolute;
+    bottom: 1.80rem;
+    z-index: 1;
+
+    width: 100%;
+    height: 50%;
+
+    background: url(../img/password-bg.png) no-repeat 0 bottom;
+}
+.password-error {
+    position: absolute;
+    bottom: .9rem;
+
+    width: 100%;
+
+    font-size: .12rem;
+
+    color: #f60;
+}
+
+/*login*/
+
+.login-error {
+    position: absolute;
+    bottom: 1.6rem;
+    width: 100%;
+    font-size: .12rem;
+    color: #4f99c6;
+}
+.login-form {
+    position: relative;
+    z-index: 10;
+
+    margin: 1.1rem auto 0;
+    width: 5.2rem;
+}
+
+.regLnk {
+    float: right;
+    margin-top: .36rem;
+    color: #4f99c6 !important;
+}
+
+.other-login span {
+    padding-left: .6rem;
+
+    line-height: 1.52rem;
+
+    color: #999;
+}
+
+
+/*success-bind*/
+
+.face-box {
+    margin-top: 1.9rem;
+    width: 100%;
+}
+
+.face-img {
+    display: block;
+
+    margin: 0 auto;
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+.face-explain {
+    margin-top: .33rem;
+
+    font-size: .4rem;
+    text-align: center;
+
+    color: #f60;
+}
+
+.face-close {
+    margin-top: .54rem;
+
+    font-size: .28rem;
+    text-align: center;
+
+    color: #999;
+}
+
+
+
+
+/*name-attention*/
+
+.amend-box .inp-long {
+    float: left;
+}
+
+.show-btn-password {
+    position: relative;
+}
+
+.show-btn-password .inp-long {
+    padding: 0 1.1rem 0 .35rem;
+}
+
+.show-btn-password a {
+    position: absolute;
+    width: 1rem;
+    height: 100%;
+    line-height: .8rem;
+    text-align: center;
+    color: #7bf;
+    right: 0;
+    top: 0;
+    font-size: .32rem;
+}
+/*bind-tel*/
+
+.user-title {
+    margin-top: .53rem;
+
+    font-size: .32rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.main .important-tip {
+    color: #666;
+}
+
+
+/*next-tel*/
+
+.telphone-box {
+    margin: 1.46rem auto .2rem;
+    width: 5.2rem;
+}
+
+.telphone-box strong {
+    margin-left: .15rem;
+
+    font-weight: 400;
+
+    color: #f60;
+}
+
+
+/*new-registerbind*/
+
+.attention-box .telcode .inp-long {
+    float: left;
+
+    width: 3.27rem;
+}
+
+.attention-box .telcode span {
+    display: block;
+    float: right;
+
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 1.77rem;
+
+    line-height: .8rem;
+    text-align: center;
+
+    color: #666;
+    background: #f9f9f9;
+}
+
+.agree-protocol {
+    margin-top: .35rem;
+}
+
+.agree-protocol span {
+    color: #4f99c6;
+}
+/*forget-password*/
+
+.main .reste-password {
+    margin-top: 1.1rem;
+}
+
+.reste-password .telcode span {
+    color: #fff;
+    background: #7bf;
+}
+
+
+/*register*/
+
+.reste-password .telcode b {
+    display: block;
+    float: right;
+
+    box-sizing: border-box;
+    border: 1px solid #e0e0e0;
+    width: 1.77rem;
+    height: .8rem;
+}
+
+.agree-protocol strong {
+    display: block;
+    float: left;
+
+    margin: .05rem .16rem 0 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    width: .24rem;
+    height: .24rem;
+}
+
+.agree-protocol .arrow-bg {
+    background: url(/asserts/ldd/img/dfh-arrow-bg.png) no-repeat center center;
+    background-size: .18rem .16rem;
+}
+.invid-tips {
+    display: none;
+    width: 5.2rem;
+    margin: 0 auto .3rem;
+    color: red;
+}
+/*success-register*/
+
+.step-box {
+    border-bottom: 1px solid #e0e0e0;
+    height: 1.43rem;
+}
+
+.step-attestation {
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 5.2rem;
+    height: 1.43rem;
+}
+
+.step-attestation .step1,
+.step-attestation .step2,
+.step-attestation .step3 {
+    float: left;
+
+    width: 1.73rem;
+}
+
+.step-line {
+    margin: 0 auto;
+    width: 1px;
+    height: .3rem;
+
+    background: #ccc;
+}
+
+.step-attestation p {
+    text-align: center;
+
+    color: #999;
+}
+
+.step-attestation .active p {
+    color: #f60;
+}
+
+.step-attestation .active .step-number {
+    color: #fff;
+    background: #f60;
+}
+
+.step-number {
+    margin: .06rem auto .17rem;
+    border-radius: 50%;
+    width: .45rem;
+    height: .45rem;
+
+    line-height: .45rem;
+    text-align: center;
+
+    color: #ccc;
+    background: #fff;
+}
+
+.main .step-facebox {
+    margin-top: .5rem;
+}
+
+.main .step-facebox .face-close {
+    margin-top: .24rem;
+
+    color: #666;
+}
+
+.main .step-btn {
+    margin-top: .6rem;
+    width: 2rem;
+}
+
+.product-list-bottom {
+    position: absolute;
+    bottom: 1.85rem;
+
+    box-sizing: border-box;
+    border-top: 1px solid #eee;
+    width: 100%;
+    height: 1rem;
+
+    line-height: 1rem;
+    text-align: center;
+
+    background: #fff;
+}
+
+.product-list-bottom a {
+    text-decoration: underline;
+
+    color: #666;
+}
+
+.main .step2-btn {
+    margin-top: .6rem;
+    width: 2rem;
+
+    color: #fff;
+    background: #7bf;
+}

@@ -1,0 +1,120 @@
+.or_derail_body {
+    background: #ffffff;
+}
+
+.or_derail_jindutiao {
+    width: 100%;
+    height: 130px;
+    background: #5768fb;
+    padding-top: 50px;
+}
+
+.or_derail_jindutiao .or_derail_jindu {
+    width: 90%;
+    margin: 0 auto;
+    background: red;
+    height: 80px;
+    background: url("/static/ldd/img/pages/jindutiao.png") no-repeat;
+    background-size: 100%;
+}
+
+.or_derail_jindutiao .or_derail_jindu .or_derail_item {
+    height: 50px;
+    width: 24.5%;
+    float: left;
+    text-align: center;
+}
+
+.or_derail_jindutiao .or_derail_jindu .or_derail_item span {
+    display: block;
+}
+
+.or_derail_jindutiao .or_derail_jindu .or_derail_item .type_img {
+    height: 16px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.or_derail_jindutiao .or_derail_jindu .or_derail_item .type_img>img {
+    height: 100%;
+    margin-top: -10px;
+    opacity: 0;
+}
+
+.or_derail_jindutiao .or_derail_jindu .or_derail_item .type_text {
+    height: 30px;
+    width: 100%;
+    color: #d5dbe8;
+    font-size: 13px;
+}
+
+.or_derail_jindutiao .or_derail_jindu .checkeddtype .type_text {
+    color: #ffff00;
+}
+
+.or_derail_jindutiao .or_derail_jindu .checkeddtype .type_img>img {
+    opacity: 1;
+}
+
+.or_derail_list {
+    padding-left: 5%;
+    padding-top: 20px;
+    background: #fff;
+}
+
+.or_derail_list .or_derail_item {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #f0f3f5;
+}
+
+.or_derail_list .or_derail_item .or_der_list {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url("/static/ldd/img/pages/staticldd.png") no-repeat;
+    background-size: 100%;
+}
+
+.or_derail_list .or_derail_item .yewuname {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 15px;
+    color: #999;
+}
+
+.or_derail_list .or_derail_item .yewuxinxi {
+    float: right;
+    margin-right: 5%;
+    font-size: 14px;
+}
+
+.or_derail_list .or_derail_item .yewuxin {
+    color: #999;
+}
+
+.or_derail_list .or_derail_item .yewuyell {
+    color: #ff9900;
+}
+
+.or_derail_button {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    background: #5768fb;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    display: none;
+    margin-top: 15px;
+    margin-left: 5%;
+}
+
+.or_derail_button a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #fff;
+}

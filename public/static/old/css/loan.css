@@ -1,0 +1,63 @@
+/*loanDetail*/
+
+.mui-title-row{ margin-top: 15px;line-height:40px; border-top:1px solid #e7e7e7;border-bottom:1px solid #e7e7e7; background-color:transparent; color:#77BAFF; font-size:12px; text-align:center; }
+.mui-timeline{  min-height:400px; position: relative;}
+.mui-time-line{ width:1px; height:100%; position:absolute; left:20px; top:0; background-color:#e7e7e7;}
+.mui-time-row{ z-index: 1;-webkit-tap-highlight-color: rgba(0,0,0,0);margin-left: 16px;position: relative;}
+.mui-time-row li{ display:block; overflow: auto;_height: 1%;padding: 10px 0;}
+.mui-time-row li div:first-child{float:left;text-align: left;padding-left: 20px;color: #666;}
+.mui-time-row li div:last-child{float:right;text-align: right;color: #333;}
+.mui-time-row li:after{ 
+	content: "";
+    width: 8px;
+    height: 8px;
+    background: #e7e7e7;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    margin-left:0;
+    margin-top: 6px;
+    z-index:10; 
+}
+.loanDetailPlay .com_tab{padding: 20px 0 10px 0;}
+
+.loanDetailPlay{ margin:0 auto; }
+.loanDetailPlay .fullItem{ /*-webkit-backface-visibility: hidden; position: absolute; display: none;*/}
+.loanDetailPlay .fullItem:first-child { position: relative; display: block;  }
+.loanDetailPlay .fullItem p{ margin:20px 0; text-align:center;} 
+.loanDetailPlay .fullItem p span{ display:block; margin-bottom:10px; color:#666; font-size:13px; }
+.loanDetailPlay .fullItem p b{ font-size:25px; color:#333; }
+.loanDetailPlay .fullItem p b i{ font-style:normal; margin-left:5px; color:#666; font-size:13px; vertical-align:middle;}
+.loanDetailPlay_nav{ position:absolute; top:85px; font-size:35px; color:#c3cdde; width: 15px;}
+.loanDetailPlay_nav img{width: 100%;}
+.loanDetailPlay1_nav.prev{ left:20px; }
+.loanDetailPlay1_nav.next{ right:20px; }
+
+.loanDetailPlay .item_con{padding: 0 20px;background-color: #f8f8f8;}
+
+.loanDetailPlay table{width: 100%;border:0;border-color:#e7e7e7;margin-top:15px}
+.loanDetailPlay table tr td{text-align: center;padding: 5px 0;}
+.loanDetailPlay table tr td:first-child{color: #333;}
+.loanDetailPlay table tr td:last-child{color: #999;}
+
+.item_top{overflow: hidden;height: 190px;transition:height .5s;
+-moz-transition:height .5s;
+-webkit-transition:height .5s;
+-o-transition:height .5s;}
+.item_top_hide{height: 0;}
+
+
+/*loanOfficerAssess*/
+.loan_assess_content .mui-input-row label{width: 150px !important;}
+.loan_assess{width: 150px;height: 24px; }
+.loan_assess i{background: url(../img/star.png) no-repeat;background-size:100%;width:24px;height: 24px;display: inline-block;margin-left: 6px;}
+.loan_assess i.active{background: url(../img/star_fill.png) no-repeat;background-size:100%;}
+
+
+/*loanreview*/
+.loan_btm_btns{border:0 !important;box-shadow: none;margin-bottom: 20px;padding: 0 15px;}
+.loan_btm_btns .mui-btn{padding: 8px 12px 9px;}
+.loan_btm_btns .mui-btn:first-child{width: 30%;margin-left:2.5%;}
+.loan_btm_btns .mui-btn:nth-child(2){width: 30%;margin-left:2.5%;margin-right:2.5%}
+.loan_btm_btns .mui-btn:last-child{width: 30%;margin-right:2.5%;}
+

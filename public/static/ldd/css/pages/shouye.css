@@ -1,0 +1,55 @@
+ .index_mains {
+     position: relative;
+ }
+ 
+ #index_logo {
+     position: absolute;
+     top: 20px;
+     left: 10px;
+     width: 20%;
+     z-index: 99;
+ }
+ 
+ .jine {
+     width: 40%;
+     height: 28px;
+     line-height: 28px;
+     text-align: center;
+     border: none;
+     background: rgba(255, 255, 255, 0.3);
+     border-radius: 15px;
+     position: absolute;
+     top: 22%;
+     left: 30%;
+     color: #fff;
+     font-size: 13px;
+ }
+ 
+ .jinees {
+     position: absolute;
+     height: 50px;
+     line-height: 50px;
+     top: 42%;
+     width: 80%;
+     left: 10%;
+     text-align: center;
+ }
+ 
+ .jinees span {
+     position: relative;
+     color: #fff;
+     font-size: 34px;
+ }
+ 
+ .jinees span .bottomss {
+     display: block;
+     width: 40px;
+     border-bottom: 3px solid #fff;
+     position: absolute;
+     left: 3px;
+     bottom: -8px;
+ }
+ 
+ #main {
+     width: 100%;
+ }

@@ -1,0 +1,126 @@
+.addlist_body {
+    background: #fff;
+}
+
+.addlist_top {
+    width: 100%;
+    height: 130px;
+    background: url("/static/ldd/img/pages/list-bg.png") no-repeat;
+    background-size: 100%;
+    padding-top: 25px;
+}
+
+.add_serchinput {
+    width: 90%;
+    margin-left: 5%;
+    height: 30px;
+    color: #b5b9d4;
+    position: relative;
+}
+
+.add_serchinput input {
+    height: 35px;
+    line-height: 35px;
+    padding-left: 40px;
+    background: #dde1fe;
+    color: #b5b9d4;
+    border: none;
+    font-size: 12px;
+}
+
+.add_serchinput span {
+    display: block;
+    position: absolute;
+    height: 20px;
+    line-height: 20px;
+    top: 7px;
+    left: 5%;
+    font-size: 18px;
+}
+
+.add_btn {
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 5%;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    color: #dde1fe;
+    border-radius: 5px;
+    border: 2px dashed #8894ff;
+}
+
+.add_list {
+    width: 100%;
+}
+
+.add_list .add_head {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #f2f4ff;
+}
+
+.add_list .add_head p {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.add_list .add_head p span {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+}
+
+.add_list .add_head p span:first-child,
+.add_list .add_head p span:last-child {
+    width: 15%;
+}
+
+.yewu_list {
+    width: 100%;
+}
+
+.yewu_list li {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #f0f3f5;
+}
+
+.yewu_list li p {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.yewu_list li p span {
+    float: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 32%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.yewu_list li p span:first-child,
+.yewu_list li p .xiugai {
+    display: inline-block;
+    width: 15%;
+}
+
+.yewu_list li p .xiugai {
+    width: 14%;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin: 0px auto 0;
+    text-align: right;
+}
+
+.yewu_list li p .xiugai>img {
+    width: 20px;
+    margin-top: 15px;
+    display: inline-block;
+}

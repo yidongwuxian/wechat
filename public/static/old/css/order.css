@@ -1,0 +1,20 @@
+/*ame开头*/
+
+/*ordersubmit页面*/
+.ame_info_title{font-size: 14px;color: #aaa;margin:10px}
+.ame_info_form{margin-top: 15px;}
+.ame_info_form .mui-input-row label{width: 90px !important;padding-right: 0;}
+.ame_info_form .mui-input-row input{padding-left: 100px;font-size: 14px;}
+.ame_info_form .mui-input-row select{padding: 0 30px 0 60px;font-size: 14px;}
+
+.ame_autocomplete{background-color: #f8f8f8;border-top:1px solid #e7e7e7}
+.ame_row_mask{position: absolute;width:100%;height: 100%;z-index: -1}
+.ame_info_form .show .ame_row_mask{background-color: #ccc;opacity: 0.1;z-index: 1;}
+
+/*orderrefuse页面*/
+.ame_refuse_form .mui-input-row:nth-child(2) label,.ame_refuse_form .mui-input-row:nth-child(5) label{width: 150px !important;}
+.ame_refuse_reason{margin-top: 40px;}
+.ame_refuse_reason h3{text-align: center;}
+.ame_refuse_reason .imgwrap{margin:40px auto 10px;max-width:159px;width: 24.8%;}
+.ame_refuse_reason .imgwrap img{width: 100%;}
+.ame_refuse_reason h4{text-align: center;font-weight: normal;}

@@ -1,0 +1,54 @@
+a,article,aside,body,button,div,em,footer,header,html,i,img,input,li,ol,p,section,span,textarea,ul{margin:0;padding:0;-webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;-o-text-size-adjust:none;text-size-adjust:none;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;-o-appearance:none;appearance:none;-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:rgba(255,255,255,0)}
+.clearfix{overflow:auto}
+li,ol,ul{list-style:none}
+img{border:none;outline:0}
+html,body{height: 100%}
+body{ background-color: white; }
+.mui-content{ background-color: white; }
+.com_tips_yellow h6{ color:#ff8800; margin:15px 0; text-align: center; }
+/* 表单样式 - begin */
+.com_form_content{background-color: transparent;margin-top: 15px;}
+.com_form_content:before,.com_form_content:after{height: 0;}
+.com_nogroup{background-color: transparent;}
+.com_form_content.com_nogroup{margin-top: 40px;}
+.com_form_content.mui-input-group:before,.com_form_content.mui-input-group:after{background-color: #f0f3f5;transform:scaleY(1);-webkit-transform: scaleY(1);}
+.com_form_content.com_nogroup:before,.com_form_content.com_nogroup:after{height:0;}
+.com_form_content .mui-input-row{height: 50px;line-height: 50px;padding: 0 3px;}
+.com_form_content .mui-input-row.h20{ height: 20px !important; line-height: 20px !important; }
+.com_form_content .mui-input-row.h20:after{ height: 0 !important; }
+.com_form_content .mui-input-row:after{background-color: #f0f3f5;transform:scaleY(1);-webkit-transform: scaleY(1);right: 0;}
+.com_form_content .mui-input-row label{display: block; position: absolute;width: 90px;padding:0 15px;line-height: 50px;}
+.com_form_content .mui-input-row input{width:100%;padding:0 50px 0 55px;font-size: 16px;height: 50px;}
+.com_form_content .mui-input-row input:disabled{color:#666}
+.com_form_content .mui-input-row select{height: 49px;font-size:16px;width: 100%;padding:0 0 0 55px;z-index: 111; background: inherit;}
+.com_nogroup .mui-input-row,.com_nogroup_row{border-top:1px solid #e7e7e7;border-bottom:1px solid #f0f3f5;margin-bottom: 15px;background-color: #fff;}
+.com_nogroup .mui-input-row:after,.com_nogroup_row:after{height: 0!important;}
+.com_form_content .mui-input-row select{padding: 0 42px 0 110px;direction: rtl;}
+.com_form_content>div:last-child:after{height: 1px;}
+.com_form_content .nobtmboder:after{height: 0 !important;}
+.com_form_content .mui-input-row .mui-input-clear~.mui-icon-clear, .com_form_content .mui-input-row .mui-input-password~.mui-icon-eye{top:14px}
+/******表单右箭头和后缀名******/
+.com_form_ldddown{display:inline-block;position:absolute;top:22px;right:5px;width:24px;height:14px;background:url(../../img/pages/ldd-arrow.png) no-repeat;background-size:12px 7px}
+.com_form_ext{position: absolute;right: 15px;color: #000;font-size: 14px;line-height:50px;color:#aaa}
+.com_form_ext i{color: #ff0000;margin-left: 3px;position: absolute;top:2px;right: -5px;}
+/* 表单样式 - end */
+
+/* footer - begin */
+footer{position:absolute;bottom:0;left:0;right:0;padding:7px 0 4px 0;background:#fff;border-top:1px solid #eee;transition:all .3s ease-out}
+footer>a{display:block;width:33%;float:left}
+footer>a>span{display:block;text-align:center;font-size:12px;color:#999}
+footer>a>span:first-child{height:25px;width:25px;margin-bottom:3px;margin:0 auto;overflow:hidden}
+footer>a>span:first-child>img{width:100%;display:block;margin-top:-100%}
+.Selected>span{color:#3857ff}
+.Selected>span:first-child>img{margin-top:0}
+/* footer - end */
+/*提交按钮 - begin */
+.com_form_btns { padding: 1rem 25px; }
+.com_form_btns .mui-btn-save{color:#fff;border:1px solid #3857ff!important;background-color:#3857ff!important;padding:10px 0;}
+/* 提交按钮 - end */
+
+/* 全局loading */
+.global-ajax-loading{display: block;margin:0;width: 100%;height: 100%;background:rgba(255,255,255,.5);position: fixed;left:0;top:0;z-index: 999999}
+.global-ajax-loading div{position: absolute;width:72px;height:72px;left:50%;top:50%;margin-left: -36px;margin-top: -36px;background-image: url(../../img/pages/global-loading.gif);}
+/*mui弹出框定位*/
+.mui-popup{position: fixed !important;}

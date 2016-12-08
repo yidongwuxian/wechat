@@ -1,0 +1,45 @@
+.ame_jin_form .mui-input-row{ clear:both;  display: flex; }
+.ame_jin_form .mui-input-row label{
+    color: #333;
+    font-family: 'ldd';
+    display: inline-block;
+    min-width: 100px;
+    width: auto;
+    font-size: 15px;
+}
+.ame_jin_form .mui-input-row input {
+    text-align: right;
+    padding: 0 10px 0 0;
+    font-size: 15px;
+    color: #999;
+    font-family: 'ldd';
+}
+.jin_dtp{
+    width: 100%;
+    height: 50px;
+    padding: 10px 15px 10px 5px;
+    border: none;
+    color: #999;
+    text-align: left;
+}
+.jin_black{ width: 100%; height:10px; background-color: #fafafe; overflow: hidden; }
+.bs_number{
+    font-family: Arial;
+}
+.ame_jin_form .mui-input-row:after{ background-color: #eee !important; }
+.ame_jin_form .mui-content-padded label{
+    color: #333;
+    font-family: 'ldd';
+    display: inline-block;
+    min-width: 100px;
+    width: auto;
+    font-size: 15px;
+    margin-left:7px;
+}
+.jinidao_cn{ padding: 20px;}
+.jinidao_cn li{ line-height: 35px; }
+.jinidao_cn li span{ display: inline;  color: #999; font-size: 15px; font-family: 'ldd'; }
+.jinidao_cn li p{  display: inline-table; float:right; width:92%; color: #999;  font-size: 15px; font-family: 'ldd'; overflow: hidden; }
+.jin_remark_box{ margin: -18px 15px 10px 15px;}
+.jin_remark_box textarea{ text-indent: 2em; }
+.ame_jin_form .mui-content-padded{ border-bottom: 1px solid #eee; overflow: hidden; }

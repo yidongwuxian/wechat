@@ -1,0 +1,16 @@
+.mui-content>.mui-table-view:first-child{margin-top: 0}
+.searchhead{background-color: #C2C1C7;padding: 10px 15px 0 15px;position: relative;}
+.searchhead .mui-icon{position: absolute;right: 10px;top:22px;color: #fff;}
+.searchhead input{border-radius: 8px;margin-bottom: 10px;font-size: 12px;height: 33px;}
+.mui-table-view{background-color: #fff;}
+.mui-table-view:after{left: 0;right:0;}
+.mui-table-view .mui-table-view-cell:after{left:0;right:0}
+.mui-navigate-right .mui-media-body{line-height: 21px;font-weight: bold;font-size: 14px;}
+.mui-table-view-cell p{font-size: 13px;}
+.mui-navigate-right .mui-media-body+p{}
+.mui-navigate-right .mui-media-body+p span{margin-left: 15px;}
+.mui-navigate-right .btns{z-index: 111;position: absolute;right:15px;top:22px}
+.dir_content_loading{text-align: center;padding: 20px;color: #999;font-size: 16px;}
+.mui-table-view-cell>a:not(.mui-btn){margin:-16px -15px;}
+.mui-btn, button, input[type=button], input[type=reset], input[type=submit]{font-size:13px;line-height:1.22;padding:6px 9px;}
+.com_tab{padding: 0 0 0 0}

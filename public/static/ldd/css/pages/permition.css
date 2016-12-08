@@ -1,0 +1,25 @@
+.permition_body,
+.permition_mains {
+    background: #fff;
+}
+
+.permition_main {
+    width: 95%;
+    margin-left: 5%;
+}
+
+.permition_main h3 {
+    height: 50px;
+    line-height: 50px;
+    color: #5768fb;
+    font-size: 15px;
+    border-bottom: 1px solid #f0f3f5;
+}
+
+.permition_main p {
+    line-height: 28px;
+    color: #666666;
+    font-size: 14px;
+    padding-left: 3px;
+    padding-right: 5%;
+}

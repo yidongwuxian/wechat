@@ -1,0 +1,232 @@
+#loan_index_html,
+#loan_index_html>#content {
+    height: 100%;
+    overflow: hidden;
+    background: #fff;
+}
+
+.loan_index_content .mui-content {
+    background: #fff;
+    overflow: hidden;
+    height: auto;
+}
+
+.loan_index_content #loan_segmentedControl {
+    border: none;
+    background: #f2f4ff;
+}
+
+.loan_index_content #loan_segmentedControl .ids {
+    border: none;
+    color: #4b4b4b;
+}
+
+.loan_index_content #loan_segmentedControl .mui-active {
+    color: #5868fb;
+    background: #e7ecff;
+}
+
+.loan_index_content .com_tab {
+    padding: 0;
+    width: 100%;
+}
+
+.loan_index_content .com_tab a {
+    padding: 6px 0;
+}
+
+.loan_sershinput {
+    width: 100%;
+    height: 50px;
+}
+
+.loan_sershinput .loan_serchmain {
+    width: 100%;
+    height: 21px;
+    padding-top: 10px;
+}
+
+.loan_sershinput .loan_serchmain .loan_searchbtn {
+    width: 15%;
+    height: 20px;
+    float: left;
+    color: #e0e0e0;
+    font-size: 10px;
+    text-align: left;
+    margin-top: 3px;
+    text-align: center;
+}
+
+.loan_sershinput .loan_serchmain .loan_searchinput {
+    width: 80%;
+    float: left;
+    height: 100%;
+    height: 31px;
+    border: none;
+    border-left: 1px solid #eee;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #4c4c4c;
+}
+
+.loan_listitem {
+    padding-top: 10px;
+    border-top: 1px solid #eeeeee;
+}
+
+.loan_listitem>li {
+    height: 105px;
+    border-bottom: 1px solid #f0f3f5;
+    position: relative;
+    padding-left: 15%;
+    padding-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.loan_listitem>li>p {
+    height: 30px;
+    line-height: 30px;
+    color: #000;
+    margin: 0;
+    font-size: 13px;
+}
+
+.loan_listitem>li>p:first-child {
+    color: #666fbe;
+    font-size: 15px;
+    position: relative;
+}
+
+.loan_listitem>li>p:first-child>.delte {
+    position: absolute;
+    top: 5px;
+    left: -32px;
+    width: 20px;
+    height: 20px;
+    background: url("/static/ldd/img/pages/delte.png") no-repeat;
+    background-size: 100%;
+}
+
+.loan_listitem>li>p:first-child>.dilte>img {
+    display: block;
+}
+
+.loan_listitem>li>p:first-child .time {
+    color: #cccccc;
+    float: right;
+    font-size: 12px;
+}
+
+.loan_listitem>li .names {
+    height: 16px;
+    line-height: 16px;
+    margin-top: 5px;
+}
+
+.loan_listitem>li .names span {
+    margin-right: 30px;
+}
+
+.loan_listitem>li .names span:first-child {
+    color: #999;
+}
+
+.loan_listitem>li .names span:last-child {
+    color: #ff6600;
+}
+
+.loan_listitem>li .btns {
+    height: 40px;
+    line-height: 40px;
+}
+
+.loan_listitem>li .btns span {
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.loan_listitem>li>.btns a {
+    height: 30px;
+    line-height: 30px;
+    border-radius: 4px;
+    width: 50px;
+    text-align: center;
+    float: right;
+}
+
+.loan_listitem>li>.btns .chakan {
+    color: #77a9fd;
+    border: 1px solid #77a9fd;
+}
+
+.loan_listitem>li>.btns .hetong {
+    color: #ffaa00;
+    border: 1px solid #ffaa00;
+    margin-right: 10px;
+}
+
+.loan_listitem:before,
+.loan_listitem:after {
+    background: #fff;
+}
+
+.type {
+    background: red;
+    color: #fff;
+}
+
+.loan_listitem>li>a {
+    display: inline-block;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+}
+
+.loan_listitem .yellow {
+    background-color: #ffcc00;
+}
+
+.loan_listitem .green {
+    background: #5ac950;
+}
+
+.loan_listitem .red {
+    background: #ff8c8c;
+}
+
+.loan_listitem .lightblue {
+    background: #72c5ff;
+}
+
+.loan_listitem .blue {
+    background: #00cce1;
+}
+
+.loan_listitem .Lavender {
+    background: #d09fe5;
+}
+
+
+/*
+.loan_listitem .purple {
+    background: #9d98ff;
+}
+*/
+
+.loan_listitem .deepyellow {
+    background: #ffa647;
+}
+
+#loan_index_html footer {
+    position: fixed;
+}

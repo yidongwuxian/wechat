@@ -1,0 +1,33 @@
+.od_nav{background-color: #2e9df7;}
+.od_nav a{display: inline-block;float: left;width: 50%;text-align: center;padding: 15px 0 8px 0;color: #0063b2;}
+.od_nav a:first-child{border-right: 1px solid #298ee1;}
+.od_nav a img{width: 36px;}
+.od_nav a span{display: block;}
+.od_nav a.select{color: #fff;position: relative;}
+.od_nav a.select:after{content:"";display: block;width:0;height:0;border-left:10px solid transparent;
+    border-right:10px solid transparent;border-bottom:10px solid #fff;position: absolute;bottom:-2px;left: 50%;margin-left: -5px;}
+.whiteblock{height: 20px;border-bottom:1px solid #ddd;background-color: #fff;}
+.mui-input-row .mui-switch{width:80px;border-radius: 5px;background-color:#e0e0e0;position: absolute;float:none;margin-right: 15px;right: 0;top:5px}
+.mui-input-row .mui-switch:before{content: '地址';line-height: 30px;right: 5px;top:0}
+.mui-input-row .mui-switch .mui-switch-handle{width: 40px;border-radius: 4px;background-color:#2e9df7;line-height: 30px;font-size: 13px;text-align: center;color:#fff}
+.mui-input-row .mui-switch-blue.mui-active{border:2px solid #2e9df7}
+.mui-input-row .mui-switch.mui-active:before{content: '小区';left: 5px;color: #999;}
+.mui-input-row input{text-align: right;}
+#pg_village{text-align: left;padding-right: 100px}
+.com_form_btns{margin-top:25px;}
+.ame_row_mask.show{background-color: #fff}
+.ame_autocomplete{height: auto!important;}
+.ame_autocomplete ul{background-color: #fff}
+.ame_autocomplete ul li{position: relative}
+.com_form_content .mui-input-row:after{right:0}
+.ame_info_form{margin-top: 0}
+.com_form_content .com_form_inrow .mui-input-row:first-child{border-right: 1px solid #ddd}
+.com_form_btns .mui-btn{background-color: #2e9df7!important;}
+.radio_zb{width:15%;height:50px; float: right;}
+.ame_info_form .mui-input-row .row-lab{width: 230px !important}
+.ame_info_form .mui-input-row .radio_zb input{padding:0;}
+.ame_info_form .mui-input-row .radio_zb label{width:50%!important;right:0;padding-left: 5px}
+.mui-checkbox input[type=checkbox]:before, .mui-radio input[type=radio]:before {
+    position: absolute;
+    top: 5px;
+}

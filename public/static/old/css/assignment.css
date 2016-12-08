@@ -1,0 +1,30 @@
+/*页面派单*/
+.ass_content input[type="checkbox"]:checked:before,.ass_popover input[type="radio"]:checked:before{color:#77BAFF !important;content: "\e442";}
+
+/*.ass_popover input[type="radio"]{right:10px}
+ * .ass_content input[type="radio"]:checked:before,.ass_popover input[type="radio"]:checked:before{color:#03B816 !important;content: "\e442";}
+*/
+#tab_left,#tab_right{margin-bottom: 50px;padding: 20px;border-radius: 4px;}
+.ass_content .mui-table-view{background-color: transparent;}
+.ass_ul:before,.ass_ul:after{height: 0;}
+.ass_ul li{background-color:#fff;margin-bottom: 12px;border: 1px solid #e7e7e7;border-radius: 4px;}
+
+.ass_cell_title{padding: 13px 10px;border-bottom: 1px solid #e7e7e7;}
+.ass_cell_title .ass_item_col{margin-left: 30px;}
+.ass_cell .ass_item_col{padding: 5px 10px 0px 40px;}
+
+.ass_no_ck .ass_cell_title .ass_item_col{margin-left: 0px;}
+.ass_no_ck .ass_cell .ass_item_col{padding-left: 10px;}
+
+.ass_cell .ass_item_col:last-child{padding-bottom: 5px;}
+.ass_item_col{overflow:auto;_height:1%}
+.ass_item_col p{float: left;}
+.ass_item_col p:last-child{text-align: right;float: right;}
+
+.ass_ul .ass_cell{padding: 5px 0;}
+.ass_ul .ass_cell p{line-height: 26px;font-size: 15px;color: #333;}
+.ass_ul .ass_cell p:last-child{color: #999;}
+
+.ass_ul .mui-checkbox input[type=checkbox]{left:10px;top:9px}
+
+

@@ -1,0 +1,281 @@
+.od_nav {
+    background-color: #2e9df7;
+}
+
+.od_nav .mui-segmented-control {
+    border: none;
+    font-size: 17px;
+    border-radius: 0;
+}
+
+.od_nav .mui-segmented-control a {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    text-align: center;
+    color: #0063b2;
+    line-height: 50px;
+    border: none;
+    background-color: #f5f7ff;
+}
+
+.od_nav .mui-segmented-controla img {
+    width: 36px;
+}
+
+.od_nav .mui-segmented-control a span {
+    font-size: 17px;
+    color: #4c4c4c;
+}
+
+.od_nav .mui-segmented-control .mui-active {
+    background: #e7ecff !important;
+    color: #ffffff !important;
+}
+
+.od_nav .mui-segmented-control .mui-control-item.mui-active span {
+    color: #3857ff;
+}
+
+.od_nav .mui-active:after {
+    opacity: 1 !important;
+}
+
+.od_nav .select1 i {
+    display: inline-block;
+    width: 30px;
+    height: 29px;
+    background: url(../../img/pages/ldd-normal-house.png) center 100% no-repeat;
+    background-size: 15px;
+    margin: 0 auto;
+}
+
+.od_nav .select1.mui-active i {
+    width: 30px;
+    height: 29px;
+    background: url(../../img/pages/ldd-cur-house.png) center 100% no-repeat;
+    background-size: 15px;
+    margin: 0 auto;
+}
+
+.od_nav .select2 i {
+    display: inline-block;
+    width: 30px;
+    height: 29px;
+    background: url(../../img/pages/ldd-normal-shop.png) center 100% no-repeat;
+    background-size: 15px;
+    margin: 0 auto;
+}
+
+.od_nav .select2.mui-active i {
+    width: 30px;
+    height: 29px;
+    background: url(../../img/pages/ldd-cur-shop.png) center 100% no-repeat;
+    background-size: 15px;
+    margin: 0 auto;
+}
+
+.ld_content {
+    padding-top: 12px;
+    background-color: #ffffff;
+}
+
+.ld_content .mui-input-row:after {
+    right: 0;
+}
+
+.ld_content .mui-input-row label {
+    width: 90px !important;
+    padding-right: 0;
+}
+
+.ld_content .mui-input-row input {
+    padding-left: 100px;
+    font-size: 14px;
+}
+
+.ld_content .mui-input-row select {
+    padding: 0 42px 0 73px;
+    font-size: 14px;
+}
+
+.ld_content .mui-icon-arrowdown {
+    position: absolute;
+    right: 0;
+    color: #e0e0e0;
+}
+
+.ld_content select,
+.ld_content input {
+    color: #888;
+    text-align: right;
+}
+
+.ld_submit {
+    margin-top: 40px
+}
+
+.ld_content .mui-input-row select[disabled] {
+    color: #bbb
+}
+
+
+/*autocomplete*/
+
+.auto_wrap {
+    position: relative;
+    overflow: visible;
+}
+
+.auto_layer {
+    position: absolute;
+    background-color: #fff;
+    z-index: 9000;
+    width: 100%;
+}
+
+.auto_layer ul {
+    padding: 10px 15px;
+    margin-bottom: 50px;
+    /*min-height: 180px*/
+}
+
+.auto_layer ul li {
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    color: #999;
+    font-size: 15px
+}
+
+.auto_layer ul li .mui-icon-search {
+    right: 13px;
+    position: absolute;
+}
+
+.auto_input_clear {
+    position: absolute;
+    right: 13px;
+    top: 10px;
+    color: #999;
+    z-index: -1;
+}
+
+.auto_input_clear.show {
+    z-index: 1;
+}
+
+.auto_layer .auto_btm_btn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    text-align: center
+}
+
+.ame_autocomplete {
+    background-color: #f8f8f8;
+    border-top: 1px solid #e7e7e7
+}
+
+.ame_row_mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 111
+}
+
+.ame_row_mask.show {
+    background-color: #ccc;
+    opacity: 0.1;
+    z-index: 9000;
+}
+
+.auto_infotip {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+    background-color: #efefef;
+    height: 40px;
+    line-height: 40px
+}
+
+.auto_infotip,
+.auto_infotip a {
+    color: #bbb
+}
+
+.auto_infotip .pg_blue {
+    color: #77a9fd;
+}
+
+
+/*扩展的表单*/
+
+.nodata_wrap {}
+
+.nodata_wrap>* {
+    display: none;
+}
+
+
+/*特殊的表单*/
+
+.txt_roomarea {
+    padding-right: 72px !important;
+}
+
+.txt_village {
+    padding-right: 100px !important;
+}
+
+.mui-input-row .mui-switch {
+    width: 80px;
+    border-radius: 0px;
+    background-color: #e0e0e0;
+    border: 2px solid #e0e0e0 !important;
+    position: absolute;
+    float: none;
+    margin-right: 15px;
+    right: 0;
+    top: 5px
+}
+
+.mui-input-row .mui-switch:before {
+    content: '地址';
+    line-height: 30px;
+    right: 5px;
+    top: 0
+}
+
+.mui-input-row .mui-switch .mui-switch-handle {
+    width: 40px;
+    border-radius: 4px;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background-color: #77a9fd;
+    line-height: 30px;
+    font-size: 13px;
+    text-align: center;
+    color: #fff
+}
+
+.mui-input-row .mui-switch-blue.mui-active {
+    border: 2px solid #e0e0e0 !important;
+    background-color: #e0e0e0 !important;
+}
+
+.mui-input-row .mui-switch.mui-active:before {
+    content: '小区';
+    left: 5px;
+    color: #999;
+}
+
+.mui-switch.mui-active .mui-switch-handle {
+    -webkit-transform: translate(39px, 0) !important;
+    transform: translate(39px, 0) !important;
+}

@@ -1,0 +1,507 @@
+@charset "utf-8";
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    border-radius: 3px;
+    width: 6px;
+
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    border: 1px solid #b2b2b2;
+    border-radius: 3px;
+
+    background: #c7c7c7;
+}
+
+footer,
+header,
+main,
+nav,
+article,
+section,
+aside,
+dialog,
+figcaption,
+figure,
+details {
+    display: block;
+}
+
+main {
+    position: relative;
+}
+
+dialog,
+iframe {
+    margin: 0;
+    border: none;
+    padding: 0;
+    width: 100%;
+}
+
+html {
+    height: 100%;
+
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    position: relative;
+
+    margin: 0;
+    padding-bottom: 1.85rem;
+    min-height: 100%;
+
+    font-family: arial, "Microsoft Yahei", "Hiragino Sans GB", sans-serif;
+    font-size: .28rem;
+
+    color: #000;
+    background: #f4f4f2;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+em,
+i,
+var {
+    font-style: normal;
+}
+
+mark {
+    background-color: transparent;
+}
+
+small {
+    font-size: 80%;
+}
+
+img {
+    border: 0;
+
+    vertical-align: middle;
+}
+
+form {
+    margin: 0;
+}
+
+button,
+input,
+select,
+textarea {
+    margin: 0;
+    border: 1px solid #ccc;
+    padding: 0;
+
+    font-size: 100%;
+    vertical-align: baseline;
+
+    outline: none;
+
+    *vertical-align: middle;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    outline: 0;
+}
+
+button,
+input {
+    line-height: normal;
+}
+
+select {
+    background-color: #fff;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    cursor: pointer;
+
+    *overflow: visible;
+    -webkit-appearance: button;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+
+    *height: 13px;
+    *width: 13px;
+}
+
+textarea {
+    overflow: auto;
+
+    vertical-align: top;
+
+    resize: none;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+
+    width: 100%;
+}
+
+td {
+    padding: 0;
+}
+
+th {
+    padding: 0;
+
+    font-weight: normal;
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+
+    font-size: 100%;
+    font-weight: normal;
+}
+
+ul,
+ol {
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+dl,
+dd {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+
+    color: #333;
+}
+
+a:link,
+a:visited,
+a:active,
+a:hover {
+    text-decoration: none;
+
+    color: #333;
+
+    outline: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+
+    line-height: 0;
+
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/*public start*/
+
+.clear:after {
+    display: block;
+    clear: both;
+
+    content: "";
+}
+
+.last {
+    margin-right: 0;
+}
+
+.main {
+    overflow: hidden;
+
+    margin: 0 auto;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: none;
+    border-radius: .05rem;
+    width: 5.2rem;
+    height: .8rem;
+    font-size: .28rem;
+    color: #fff;
+    background: #4f99c6;
+}
+
+.inp-long {
+    display: block;
+
+    margin: 0 auto .4rem;
+    box-sizing: border-box;
+    border: 1px solid #e0e0e0;
+    border-radius: .1rem;
+    padding: 0 .35rem;
+    width: 5.2rem;
+    height: .8rem;
+
+    font-size: .28rem;
+
+    color: #999;
+    background: #fff;
+}
+
+
+/*public end*/
+
+
+/*head start*/
+
+.head {
+    position: relative;
+
+    width: 100%;
+    height: .9rem;
+
+    text-align: center;
+
+    background: #383635;
+}
+
+.head a,
+.head span {
+    line-height: .9rem;
+
+    color: #fff;
+}
+
+.head a.hd-back {
+    position: absolute;
+    left: .3rem;
+
+    padding-left: .26rem;
+
+    font-size: .3rem;
+
+    background: url(../img/arrow_left.png) no-repeat 0 .34rem;
+    background-size: .13rem .22rem;
+}
+
+.head a.hd-register {
+    position: absolute;
+    right: .3rem;
+
+    font-size: .3rem;
+    text-decoration: underline;
+
+    color: #f60;
+}
+
+.head span {
+    font-size: .32rem;
+}
+
+
+/*head end*/
+
+
+/*footer start*/
+
+.footer {
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+
+    background: #eee;
+}
+
+.function-column {
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e0e0e0;
+    width: 5.8rem;
+    height: 1.05rem;
+}
+
+.function-column > div {
+    float: left;
+
+    margin-top: .1rem;
+    box-sizing: border-box;
+    border-right: 1px solid #e0e0e0;
+    width: 1.45rem;
+    height: .74rem;
+
+    font-size: .24rem;
+    text-align: center;
+}
+
+.function-column div div {
+    width: 1.45rem;
+    height: .52rem;
+}
+
+.function-column .tel-number div {
+    background: url(../img/login_icon2.png) no-repeat center 0;
+    background-size: .39rem .41rem;
+}
+
+.function-column .serve-number div {
+    background: url(../img/login_icon4.png) no-repeat center 0;
+    background-size: .53rem .43rem;
+}
+
+.function-column .app-download div {
+    background: url(../img/login_icon1.png) no-repeat center 0;
+    background-size: .29rem .42rem;
+}
+
+.function-column .back-index div {
+    background: url(../img/login_icon3.png) no-repeat center 0;
+    background-size: .4rem .4rem;
+}
+
+.company {
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 5.8rem;
+
+    font-size: .24rem;
+    line-height: .78rem;
+}
+
+.company span {
+    float: left;
+}
+
+.company b {
+    float: right;
+
+    font-weight: 400;
+}
+
+
+/*footer end*/
+
+
+/*dialog start*/
+
+#m-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    width: 30px;
+    height: 30px;
+
+    cursor: pointer;
+}
+
+#m-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    background-color: #000;
+
+    opacity: .3;
+
+    filter: alpha(opacity=30);
+}
+
+#m-login {
+    position: fixed;
+    z-index: 1001;
+}
+
+.dialog-tit {
+    overflow: hidden;
+
+    border-bottom: 1px solid #ccc;
+    border-radius: .1rem .1rem 0 0;
+    width: 4.5rem;
+    height: 1.7rem;
+
+    text-align: center;
+
+    color: #333;
+    background: #fff;
+}
+
+.dialog-tit h3 {
+    margin: .36rem;
+
+    font-size: .36rem;
+    font-weight: 400;
+}
+
+.dialog-tit p {
+    font-size: .28rem;
+}
+
+.dialog-con {
+    border-radius: 0 0 .1rem .1rem;
+    width: 4.5rem;
+    height: .8rem;
+
+    background: #fff;
+}
+
+.btn-box a {
+    display: block;
+    float: left;
+
+    height: .8rem;
+
+    font-size: .32rem;
+    line-height: .8rem;
+    text-align: center;
+
+    color: #0084ff;
+}
+
+.pop-btn {
+    border-right: 1px solid #ccc;
+    width: 50%;
+}
+
+.pop-btn2 {
+    width: 50%;
+}
+
+
+/*dialog end*/

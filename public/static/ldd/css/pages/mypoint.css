@@ -1,0 +1,18 @@
+.jifen_top {
+    width: 100%;
+    background: url("/static/ldd/img/pages/jifen-bd.png") 100% top no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+.jifen_amout{ width: 60%; margin: 33px auto; text-align: center; }
+.jifen_amout b{ display: block; font-size: 35px; color:#fff; font-family: Arial; font-weight: normal; margin-bottom: 10px; }
+.jifen_amout span{ display: block; color:#c4caff; font-size: 12px; }
+.jifen_tt{ margin: 15px; color: #4c4c4c; font-size: 15px;}
+.jifen_list h4{ position: absolute; top: 3px; font-family: Arial;}
+.jifen_list .mui-table-view:before, .jifen_list .mui-table-view:after{ background-color: #eee !important;}
+.jifen_list .mui-table-view:after{left:15px !important;}
+.jifen_list .mui-table-view-cell:after{ background-color: #eee !important;}
+.jifen-red-ftcolor{ color:#ff4400; }
+.jifen-green-ftcolor{ color:#36ad52;}
+.jifen_list .mui-h4{ display:block; color:#999; font-family: Arial; font-size: 15px; }
+.jifen_list .mui-h5{ display: block; margin-top: 2px; color:#ccc; font-family: Arial; font-size: 13px;}

@@ -1,0 +1,444 @@
+.ame_info_form .mui-input-row input {
+    text-align: right;
+    padding-right: 15px;
+    font-size: 15px;
+    color: #666;
+    font-family: 'ldd';
+}
+
+#area {
+    padding-right: 73px;
+}
+
+#completionTime {
+    margin-right: 10%;
+    padding-right: 0;
+}
+
+#year {
+    display: inline-block;
+    margin-right: 10%;
+    width: 60%;
+    height: 100%;
+    border: none;
+    text-align: right;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+}
+
+#floorToal {
+    padding-right: 33px
+}
+
+#floor {
+    padding-right: 33px
+}
+
+#price1 {
+    padding-right: 32px
+}
+
+#price2 {
+    padding-right: 80px
+}
+
+#price3 {
+    padding-right: 80px
+}
+
+#price4 {
+    padding-right: 80px
+}
+
+#price5 {
+    padding-right: 80px
+}
+
+#apply_limit,
+#one_residual {
+    padding-right: 42px
+}
+
+.ame_info_form .mui-input-row select {
+    margin-top: -1px;
+    height: 50px;
+    padding: 0 40px 0 60px;
+    font-size: 15px;
+    border-radius: 0;
+    color: #666;
+    font-family: 'ldd';
+}
+
+.addrClass {
+    margin: .5rem 1.25rem 1rem 1.25rem;
+    line-height: 30px;
+    display: inline-block;
+    color: #333;
+    font-family: "Microsoft YaHei";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.div_erya {
+    display: none;
+}
+
+
+/*header*/
+
+.mui-title {
+    font-size: 18px;
+    color: #999;
+    line-height: 50px;
+}
+
+.mui-bar-nav.mui-bar .mui-icon {
+    color: #999 !important;
+}
+
+.mui-bar {
+    height: 50px !important;
+    background-color: white;
+    border-bottom: 1px solid #f7f6fb;
+}
+
+.mui-bar .mui-icon {
+    font-size: 29px !important;
+}
+
+.mui-bar .mui-icon:active {
+    opacity: 1;
+}
+
+.mui-bar .ldd-icon {
+    font-size: 24px;
+    position: relative;
+    z-index: 20;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mui-bar-nav.mui-bar .ldd-icon-bars {
+    display: block;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 50px;
+    height: 50px;
+    background: url(../../img/pages/ldd-bars.png) 50% center no-repeat;
+    background-size: 25px;
+}
+
+.mui-bar-nav.mui-bar .ldd-icon-plus {
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 50px;
+    height: 50px;
+    background: url(../../img/pages/ldd-plus.png) 50% center no-repeat;
+    background-size: 18px;
+}
+
+.mui-bar-nav.mui-bar .ldd-icon-title {
+    display: inline-block;
+    float: right;
+    margin: 5px 5px 0 -10px;
+    font-size: 15px;
+    color: #999;
+}
+
+
+/*title*/
+
+.info_title {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.info_title .line {
+    border-top: 1px dashed #999;
+    margin-top: .8rem;
+}
+
+.info_title .tips {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -0.7rem;
+    font-size: 14px;
+    padding: 0 1.5rem;
+    background-color: #fff;
+    color: #999999;
+}
+
+
+/*cn*/
+
+
+/*.com_form_ldddown{ display: inline-block; position: absolute; top:22px; right:5px; width: 24px; height:14px; background: url(../../img/pages/ldd-arrow.png) no-repeat; background-size: 12px 7px; }*/
+
+.ame_info_form .mui-input-row label {
+    color: #4c4c4c;
+    font-family: 'ldd';
+    display: inline-block;
+    min-width: 100px;
+    width: auto;
+}
+
+.com_tips_yellow h6 {
+    color: #ff8800;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.mui-content>.mui-table-view:first-child {
+    margin: 0 !important;
+}
+
+
+/*房产申请确认页*/
+
+.ame_info_title {
+    font-size: 14px;
+    padding: 0 16px;
+    margin: 0;
+    background-color: #faf9fe;
+    color: #999;
+    height: 50px;
+    line-height: 50px;
+}
+
+.mui-table-view .mui-table-view-cell a {
+    display: flex;
+}
+
+
+/*评估状态*/
+
+.ldd-status {
+    position: absolute;
+    top: 4px;
+    right: 0;
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.ldd-status.st-green {
+    background-color: #95dc8f;
+}
+
+.ldd-status.st-green::after {
+    content: '评估完成';
+}
+
+.ldd-status.st-blue {
+    background-color: #9bd2fa;
+}
+
+.ldd-status.st-blue::after {
+    content: '评估中';
+}
+
+.ldd-status.st-pink {
+    background-color: #ffa3a3;
+}
+
+.ldd-status.st-pink::after {
+    content: '评估完成但数据不完整';
+}
+
+/*房产申请提交页*/
+.info_cn li {
+    padding: 0;
+}
+
+.info_cn li::after {
+    left: 0;
+}
+
+.info_cn .mui-media .mui-col-sm-3 {
+    width: 11%;
+    padding: 1em 5px;
+    overflow: hidden;
+}
+
+.info_cn .mui-media .mui-col-sm-3.pm2 {
+    width:12%;
+    padding: 1em 0;
+    overflow: hidden;
+}
+
+.info_cn .mui-media .mui-col-sm-3 strong {
+    display: block;
+    position: relative;
+    font-family: Arial;
+    font-size: 20px;
+    color: #b5cee3;
+    top:4px;
+    text-align: center;
+}
+
+.info_cn .mui-table-view-cell a {
+    margin: 0;
+    padding: .5rem 1rem .5rem 0;
+}
+
+.info_cn .mui-media .mui-media-body{
+    width:88%;
+    border-left: 1px dashed #f2f2f2;
+    overflow: hidden;
+}
+.ldd-times {
+    font-size: 11px;
+    font-family: Arial;
+    color: #999;
+    margin: 5px 0 10px 0;
+    position: relative;
+    left:11px;
+    overflow: hidden;
+}
+
+.ldd-de {
+    width:97%;
+    font-size: 15px;
+    font-family: 'SimSun';
+    color: #666;
+    white-space: normal;
+    position: relative;
+    left:10px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+.infolist .mui-table-view-cell:after {
+    background-color: #eee !important;
+}
+/*评估完成和评估中对勾*/
+
+.info_li strong {
+    display: block;
+    width: 44px;
+    height: 44px;
+}
+
+.info_li strong {
+    background: url(../../img/pages/ldd-normal-right.png) center 100% no-repeat;
+    background-size: 22px;
+}
+
+.info_li strong.cur {
+    background: url(../../img/pages/ldd-cur-right.png) center 100% no-repeat;
+    background-size: 22px;
+}
+
+
+/*朝向类型切换*/
+
+.orientation1 {
+    display: none;
+}
+
+.arrowRight {
+    display: block;
+    position: relative;
+    font-family: Arial;
+    font-size: 20px;
+    color: #b5cee3;
+    width: 40px;
+    height: 40px;
+    background: url(../../img/pages/ldd-normal-right.png) center no-repeat;
+    background-size: 22px;
+    border: 1px solid transparent !important;
+}
+
+.infolist .arrowCur {
+    background: url(../../img/pages/ldd-cur-right.png) center no-repeat;
+    background-size: 22px;
+    border: 1px solid transparent !important;
+}
+
+.evallist_box {
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 80px;
+    background-color: white;
+    z-index: 99;
+}
+
+.com-fx {
+    position: fixed;
+}
+
+.com-st {
+    position: static;
+}
+
+.info_cn:before,
+.info_cn:after {
+    background-color: #f0f3f5 !important;
+}
+
+.infolist {
+    position: relative;
+}
+/*弹框toast*/
+.mui-toast-container{
+    width:auto !important;
+    max-width: 80%;
+    border-radius: 5px;
+    background: rgba(0,0,0,.7);
+    box-sizing: border-box;
+    text-align: center;
+    z-index: 1000;
+    -webkit-transition: opacity .3s;
+            transition: opacity .3s;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    opacity: 0;
+    left: 50%;
+    bottom:300px !important;
+    padding:10px;
+}
+
+.mui-toast-message{
+    width:auto !important;
+    margin:0 !important;
+    padding: 0 !important;
+    color: #fff !important;
+    border-radius: inherit !important;
+    background-color: transparent !important;
+}
+
+/*内容区域的通用标题*/
+
+.com_list_tt {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #f2f4ff;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+}
+
+.com_list_tt a {
+    display: block;
+    color: #adb8f6;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.com_list_tt .eval_addIco {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(../../img/pages/eval-add.png) center 100% no-repeat;
+    background-size: 12px;
+}
